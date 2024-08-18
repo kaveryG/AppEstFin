@@ -66,3 +66,4 @@
 /Users/brandonelibmartinezsantos/Documents/AppEstFin/AppEstFin/obj/Debug/net8.0/AppEstFin.pdb
 /Users/brandonelibmartinezsantos/Documents/AppEstFin/AppEstFin/obj/Debug/net8.0/AppEstFin.genruntimeconfig.cache
 /Users/brandonelibmartinezsantos/Documents/AppEstFin/AppEstFin/obj/Debug/net8.0/ref/AppEstFin.dll
+/Users/brandonelibmartinezsantos/Documents/AppEstFin/AppEstFin/obj/Debug/net8.0/AppEstFin.sourcelink.json

@@ -53,10 +53,4 @@ public class EstimacionRepository : IEstimacionRepository
 
         return estimacionMes;
     }
-
-    //Comentario para subir a GITHUB
-
-    //Segundo comentario de prueba
-
-    //Tercer comentario de prueba
 }
