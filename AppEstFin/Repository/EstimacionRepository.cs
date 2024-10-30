@@ -54,7 +54,7 @@ public class EstimacionRepository : IEstimacionRepository
         return estimacionMes;
     }
 
-    public async Task InsertarGasto(decimal monto, string descripcion, DateTime fechaMovimiento, string categoriaGasto, int? idTarjeta, int? idUsuario)
+    public async Task InsertarGasto(decimal monto, string descripcion, DateTime fechaMovimiento, string categoriaGasto, int idTarjeta, int idUsuario)
     {
         using (SqlConnection connection = _databaseHelper.GetSqlConnection())
         {
