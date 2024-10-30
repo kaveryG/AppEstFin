@@ -27,7 +27,7 @@ namespace AppEstFin.Controllers
 
         [HttpGet]
         [Route("InsertarGasto")]
-        public async Task<ActionResult<EjecutaAccionDTO>> InsertarGasto(decimal monto, string descripcion, DateTime fechaMovimiento, string categoriaGasto, int? idTarjeta, int? idUsuario)
+        public async Task<ActionResult<EjecutaAccionDTO>> InsertarGasto(decimal monto, string descripcion, DateTime fechaMovimiento, string categoriaGasto, int idTarjeta, int idUsuario)
         {
             EjecutaAccionDTO accion = new EjecutaAccionDTO();
             

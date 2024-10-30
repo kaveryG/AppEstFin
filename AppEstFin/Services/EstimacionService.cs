@@ -21,7 +21,7 @@ public class EstimacionService : IEstimacionService
             return estimacion;
         }
 
-        public async Task<bool> InsertarGasto(decimal monto, string descripcion, DateTime fechaMovimiento, string categoriaGasto, int? idTarjeta, int? idUsuario)
+        public async Task<bool> InsertarGasto(decimal monto, string descripcion, DateTime fechaMovimiento, string categoriaGasto, int idTarjeta, int idUsuario)
         {
             try
             {
