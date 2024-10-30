@@ -1,38 +1,82 @@
-AppEstFin/bin/Debug/net8.0/AppEstFin.dll
-AppEstFin/bin/Debug/net8.0/AppEstFin.dll
-AppEstFin/obj/Debug/net8.0/refint/AppEstFin.dll
-AppEstFin/obj/Debug/net8.0/ref/AppEstFin.dll
-AppEstFin/obj/Debug/net8.0/AppEstFin.sourcelink.json
-AppEstFin/obj/Debug/net8.0/AppEstFin.pdb
-AppEstFin/obj/Debug/net8.0/AppEstFin.dll
-AppEstFin/obj/Debug/net8.0/AppEstFin.AssemblyInfoInputs.cache
-AppEstFin/obj/Debug/net8.0/AppEstFin.AssemblyInfo.cs
-AppEstFin/bin/Debug/net8.0/AppEstFin.dll
-AppEstFin/bin/Debug/net8.0/AppEstFin.pdb
-AppEstFin/obj/Debug/net8.0/AppEstFin.AssemblyInfo.cs
-AppEstFin/obj/Debug/net8.0/AppEstFin.AssemblyInfoInputs.cache
-AppEstFin/obj/Debug/net8.0/AppEstFin.dll
-AppEstFin/obj/Debug/net8.0/AppEstFin.pdb
-AppEstFin/obj/Debug/net8.0/AppEstFin.sourcelink.json
-AppEstFin/obj/Debug/net8.0/ref/AppEstFin.dll
-AppEstFin/obj/Debug/net8.0/refint/AppEstFin.dll
-AppEstFin/obj/Debug/net8.0/AppEstFin.AssemblyInfo.cs
-AppEstFin/obj/Debug/net8.0/AppEstFin.AssemblyInfoInputs.cache
-AppEstFin/obj/Debug/net8.0/refint/AppEstFin.dll
-AppEstFin/obj/Debug/net8.0/ref/AppEstFin.dll
-AppEstFin/obj/Debug/net8.0/AppEstFin.sourcelink.json
-AppEstFin/obj/Debug/net8.0/ref/AppEstFin.dll
-AppEstFin/bin/Debug/net8.0/AppEstFin.dll
-AppEstFin/bin/Debug/net8.0/AppEstFin.pdb
-AppEstFin/obj/Debug/net8.0/AppEstFin.AssemblyInfo.cs
-AppEstFin/obj/Debug/net8.0/AppEstFin.csproj.AssemblyReference.cache
-AppEstFin/obj/Debug/net8.0/AppEstFin.csproj.FileListAbsolute.txt
-AppEstFin/obj/Debug/net8.0/AppEstFin.GeneratedMSBuildEditorConfig.editorconfig
-AppEstFin/obj/Debug/net8.0/AppEstFin.assets.cache
-AppEstFin/obj/Debug/net8.0/AppEstFin.AssemblyInfoInputs.cache
-AppEstFin/obj/Debug/net8.0/AppEstFin.AssemblyInfo.cs
-AppEstFin/obj/project.nuget.cache
-AppEstFin/obj/project.assets.json
-AppEstFin/obj/AppEstFin.csproj.nuget.dgspec.json
-AppEstFin/.DS_Store
-.DS_Store
+# Archivos y carpetas de entorno de desarrollo
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Archivos de compilación de Visual Studio
+*.dbmdl
+*.dbproj.schemaview
+*.pfx
+*.publishsettings
+*.pubxml
+*.publishproj
+
+# Archivos de configuración de VS Code
+.vscode/
+
+# Archivos y carpetas de compilación de .NET Core
+bin/
+obj/
+out/
+
+# Configuración de dependencia
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Archivos de paquetes NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+.packages/
+
+# Dependencias locales y globales
+packages/
+.nuget/
+
+# Archivos de salida de publicación
+*.dll
+*.exe
+*.app
+*.so
+*.dylib
+*.env
+
+# Archivos de logs y temporales
+*.log
+*.tlog
+*.cache
+*.pid
+*.dump
+
+# Configuración de Docker
+docker-compose.override.yml
+.docker/
+
+# Archivos y carpetas de seguridad
+*.pfx
+*.key
+.env
+
+# Archivos de sistema
+Thumbs.db
+ehthumbs.db
+*.DS_Store
+*.localized
+
+# Configuración específica de usuario
+*.swp
+*~
+*.idea/
+*.vscode/
+
+# Archivos de prueba y cobertura
+TestResults/
+Coverage/
+*.coverage
+*.coveragexml
+*.testsettings
+*.trx
