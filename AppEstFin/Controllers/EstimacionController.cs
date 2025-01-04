@@ -18,20 +18,20 @@ namespace AppEstFin.Controllers
         }
 
         [HttpGet]
-        [Route("ConsultarConsumo")]
+        [Route("ConsultarConsumo/{id_usuario}")]
         public async Task<ActionResult<List<sp_CalcularTotalAPagarPorTarjeta>>> ConsultarConsumo(int id_usuario)
         {
             var result = await _estimacionService.ObtenerDatosConsumo(id_usuario);
             return Ok(result);
         }
 
-        [HttpGet]
+        [HttpPost]
         [Route("InsertarGasto")]
-        public async Task<ActionResult<EjecutaAccionDTO>> InsertarGasto(decimal monto, string descripcion, DateTime fechaMovimiento, string categoriaGasto, int idTarjeta, int idUsuario)
+        public async Task<ActionResult<EjecutaAccionDTO>> InsertarGasto(GastoCapturaDTO dtoC)
         {
             EjecutaAccionDTO accion = new EjecutaAccionDTO();
             
-            var result = await _estimacionService.InsertarGasto(monto, descripcion, fechaMovimiento, categoriaGasto, idTarjeta, idUsuario);
+            var result = await _estimacionService.InsertarGasto(dtoC.monto, dtoC.descripcion, dtoC.fechaMovimiento, dtoC.categoriaGasto, dtoC.idTarjeta, dtoC.idUsuario);
             if(result == true)
             {
                 accion.valida = true;
